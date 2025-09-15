@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body{
+  background-image: url('../images/aula.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav>li>a{
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right:20px;
+  color: #fff;
+}
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    }
+
+    .nav-link{
+      color: #fff !important;
+    }
+
+
+.wrapper{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+}
+
+.navbar-brand{
+  color:#fff;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+
+.navbar-red:hover .wrapper{
+
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+
+}
+
+.navbar-brand:hover{
+  color:#fff; 
+}
+
+.navbar {
+        background-color: blue !important;
+}
+
+.all-show{
+  z-index: 10;
+}
+
+.sociales{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: graytext;
+    }
+        
+.fa{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: yellowgreen;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
